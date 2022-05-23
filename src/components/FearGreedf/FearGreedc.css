@@ -1,0 +1,20 @@
+
+
+.time-until{
+    font-size: 30px;
+    margin: 30px;
+}
+
+.charts{
+    width: 80%;
+    margin: auto;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    background-color: black;
+    color: yellow;
+}
+
+.warning{
+    width: 60%;
+    margin:20px auto
+}

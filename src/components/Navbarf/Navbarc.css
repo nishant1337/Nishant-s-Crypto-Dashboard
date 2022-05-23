@@ -1,0 +1,14 @@
+.icon {
+margin-right: 20px;
+  }
+  
+
+.navbar{
+  position: sticky;
+  top: 0px;
+  width: 100%;
+}
+
+.dropdown{
+  margin-left: 20px;
+}

@@ -1,0 +1,21 @@
+.logo{
+    margin: 20px;
+    width: 150px;
+    height: auto;
+}
+
+.rank{
+    font-size: 25px;
+    font-weight: bold;
+}
+
+.sidebar{
+    float: left;
+    width: 25%;
+    margin: 20px;
+}
+.chart{
+    margin: 20px;
+    float: right;
+    width: 65%;
+}
