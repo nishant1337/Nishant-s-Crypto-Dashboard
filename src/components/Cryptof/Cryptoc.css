@@ -1,0 +1,54 @@
+.coinlist{
+    margin: auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.each-coin{
+    font-size: 20px;
+
+}
+
+.each-coin .price{
+    margin: 10px;
+    font-size: 25px;
+}
+
+.red{
+    color: red;
+    font-weight: 500;
+  }
+  
+  .green{
+    color: green;
+    font-weight: 500;
+  }
+
+  .coin-img{
+      height: 40px;
+      margin: 0px 20px;
+  }
+
+thead{
+      font-size: 22px;
+      border: 3px solid grey;
+      margin: auto;
+  }
+  tbody{
+
+  }
+  .table-main{
+    vertical-align: middle;
+margin: 30px 20px;
+  }
+
+.coin-name{
+    text-transform: uppercase;
+}
+
+.supply{
+  color:grey
+
+}
