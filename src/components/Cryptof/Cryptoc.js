@@ -78,7 +78,7 @@ const Cryptoc = () => {
         </td>
         <td className={color}>{coin.price_change_percentage_24h}</td>
         <td>
-                          {symbol}{" "}
+                          {Symbol}{" "}
                           {numberWithCommas(
                             coin.market_cap.toString().slice(0, -6)
                           )}
