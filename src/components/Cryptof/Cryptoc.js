@@ -24,9 +24,10 @@ const Cryptoc = () => {
     fetchCoins();
   }, [Currency]);
 
-  const convertToCurrency=(money)=>{
-    return(money.toString().length)
+  const  numberWithCommas= (x) => {
+    return x.toString().replace(/\B(?=(\d{3})+(?!\d))/g, ",");
   }
+
 
   {
     /* 
@@ -79,7 +80,7 @@ const Cryptoc = () => {
         <td>
           {" "}
           {Symbol}
-          {convertToCurrency(coin.market_cap)}
+          {numberWithCommas(coin.market_cap)}
         </td>
         {coin.total_supply == null ? (
           <td>
