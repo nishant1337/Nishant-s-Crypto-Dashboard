@@ -80,7 +80,7 @@ const Cryptoc = () => {
         <td>
                           {symbol}{" "}
                           {numberWithCommas(
-                            row.market_cap.toString().slice(0, -6)
+                            coin.market_cap.toString().slice(0, -6)
                           )}
                           M
 
